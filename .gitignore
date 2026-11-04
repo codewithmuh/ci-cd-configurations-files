@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.backend.env
+*.local.env
+*.prod.env
+*.staging.env
+
+# Credentials & Keys
+*.pem
+*.key
+*.pkcs12
+*.p12
+*.crt
+id_rsa
+id_ed25519
+credentials.json
+client_secret*.json
+
+# Infrastructure & Terraform State
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
